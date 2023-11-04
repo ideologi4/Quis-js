@@ -1,0 +1,41 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #503246;
+}
+
+.quiz-atv {
+  background-color: #7a546d;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(235, 232, 232, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: peru;
+}
+
+button {
+  background-color: rgb(236, 156, 203);
+  color: rgb(32, 23, 23);
+  padding: 13px 20px;
+  margin-top: 150px;
+  border: none;
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#results {
+  margin-top: 60px;
+  font-weight: bold;
+}
